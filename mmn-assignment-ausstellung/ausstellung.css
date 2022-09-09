@@ -1,0 +1,168 @@
+body {
+    font-family: "Open Sans", sans-serif !important;
+    position: relative;
+}
+
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+footer {
+    background-color:#2F3E46;
+    color: #CAD2C5;
+    padding: 10px;
+    min-height: 60px;
+    
+}
+
+.navbar{
+  z-index: 9999 !important;  
+
+}
+
+
+
+/*
+Adjusts the hight of the images to be consistent regardless of the resolution
+50vh = the image is set to 50% of the viewport height 
+*/
+.carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 50vh;
+}
+
+.card-img-container{
+    min-width: 13rem;
+    min-height: 310px;
+    max-height: 65vh; 
+}
+
+
+.card-img-top{
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    
+  }
+
+  .card-img-top:hover{
+    filter: brightness(0.7);    
+  }
+
+
+.text-link{
+  color: #52796F;
+}
+
+
+.hover-darken-1:hover{
+  filter: brightness(0.7);    
+
+}
+
+.hover-darken-2:hover{
+  filter: brightness(0.4);    
+
+}
+
+.btn-color-1{
+  color: #fff;
+  background-color: #157347;
+  border-color: #146c43;
+}
+
+.btn-color-2{
+  color: #fff;
+  background-color: #354F52;
+  border-color: #354F52;
+}
+.btn-color-2:hover{
+  color: #fff;  
+  background-color: #2F3E46;
+  border-color: #2F3E46;
+}
+
+.img-inv{
+  filter: invert();
+}
+
+.menu-panel {
+  position: fixed;
+  max-height: 20vh;
+  z-index: 9998 !important;  
+}
+
+
+
+.text-light-green{
+  color: #CAD2C5;
+}
+
+.text-light-green-2{
+  color: #84A98C;
+}
+
+.text-normal-green{
+  color: #52796F;
+}
+
+.text-dark-green{
+  color: #354F52;
+}
+
+.text-dark-green-2{
+  color: #2F3E46;
+}
+
+.bg-dark-green{
+  background-color: #202a30 !important;
+}
+
+.bg-light-green{
+    background-color: #CAD2C5;
+}
+  
+.bg-light-green-2{
+  background-color: #84A98C;
+}
+
+
+#gitLogo{
+  max-width: 30vh;
+}
+
+.hover-text-normal-green:hover{
+  color: #84A98C;
+}
+
+.download-icon {
+  background-image: url('./assets/icons/download-svgrepo-com.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-right: 15px;
+  margin-left: 5px;
+
+}
+
+.view-icon {
+  background-image: url('./assets/icons/view-svgrepo-com.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-right: 15px;
+  margin-left: 5px;
+
+}
+
+.like-icon {
+  background-image: url('./assets/icons/like-svgrepo-com.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-right: 15px;
+  margin-left: 5px;
+}
+
+
